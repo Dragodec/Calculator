@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="Style.css">
+    
+</head>
+<body>
+    
+    <div id="box">
+    <div id="Calc">
+        <input id="Input" placeholder="Go On"></div>
+        <div class="row">
+            <button onclick="Append('7')">7</button>
+            <button onclick="Append('8')">8</button>
+            <button onclick="Append('9')">9</button>
+            <button onclick="Setopt('+')">+</button>
+        </div>
+        <div class="row">
+            <button onclick="Append('4')">4</button>
+            <button onclick="Append('5')">5</button>
+            <button onclick="Append('6')">6</button>
+            <button onclick="Setopt('-')">-</button>
+        </div>
+        <div class="row">
+            <button onclick="Append('1')">1</button>
+            <button onclick="Append('2')">2</button>
+            <button onclick="Append('3')">3</button>
+            <button onclick="Setopt('*')">*</button>
+        </div>
+        <div class="row">
+            <button onclick="Append('0')">0</button>
+            <button onclick="Clear('C')">C</button>
+            <button onclick="Calc('=')">=</button>
+            <button onclick="Setopt('/')">/</button>
+        </div>
+    </div></div>
+<script src="Main.js"></script>
+</body>
+</html>
